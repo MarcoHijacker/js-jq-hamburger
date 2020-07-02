@@ -6,7 +6,7 @@ $('i.fa-bars').click( // Punto all'icona hamburger tramite i selettori css
   }
 );
 // Stessa cosa di sopra, ma rimuovo la classe per ritornare alla situazione di partenza
-$('i.fa-times').click(
+$('i.fa-times').click( // Questa volta punto alla (X) che fa parte del menu hamburger esteso
   function () {
     $('.hamburger-menu').removeClass('active');
   }
